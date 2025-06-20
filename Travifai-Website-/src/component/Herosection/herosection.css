@@ -1,0 +1,41 @@
+/* Hero Section Styling */
+.hero-section {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD0347GmGi2lbpBWoKd90R0_pjc_5JECfzQA&s"); 
+  position:relative;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.hero-content h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+img {
+  width: 100%; 
+  height: auto;
+}
+
+
